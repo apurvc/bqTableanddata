@@ -123,12 +123,17 @@ def write_to_csv(data: list, columns: list, filename: str = "sample_data.csv"):
             writer.writerows(data)
 
 if __name__ == "__main__":
-    if len(sys.argv) != 2:
-        print("I need a sql file :)")
-        print("Usage: python hivetoBq.py file.sql")
+    if len(sys.argv) <= 2:
+        print("I need a sql file and how many record to generate")
+        print("Example Usage: python hivetoBq.py file.sql 100")
         sys.exit(1)
 
     hive_ddl_file = sys.argv[1]
+
+    if len(sys.argv) == 3:
+        num_records = int(sys.argv[2])
+    else:
+        num_records = 100
 
     try:
         with open(hive_ddl_file, 'r') as file:
@@ -138,7 +143,7 @@ if __name__ == "__main__":
         print(bigquery_ddl)
 
         # Generate and print sample data
-        sample_data = generate_sample_data(columns, num_records=5)  # Generate 5 sample records
+        sample_data = generate_sample_data(columns, num_records)  # Generate 5 sample records
         write_to_csv(sample_data,columns) # Pass 'columns' to write_to_csv
         print("\nSample data generated and saved to 'sample_data.csv'")
 
