@@ -1,0 +1,10 @@
+[
+    {
+        "new_name": "Wind_Gust_Dir",
+        "old_name": "WindGustDir"
+    },
+    {
+        "new_name": "Wind_Gust_Speed",
+        "old_name": "WindGustSpeed"
+    }
+]
