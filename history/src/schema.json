@@ -1,0 +1,90 @@
+[
+    {
+        "name": "MinTemp",
+        "field_type": "double"
+    },
+    {
+        "name": "MaxTemp",
+        "field_type": "double"
+    },
+    {
+        "name": "Rainfall",
+        "field_type": "double"
+    },
+    {
+        "name": "Evaporation",
+        "field_type": "double"
+    },
+    {
+        "name": "Sunshine",
+        "field_type": "string"
+    },
+    {
+        "name": "WindGustDir",
+        "field_type": "string"
+    },
+    {
+        "name": "WindGustSpeed",
+        "field_type": "string"
+    },
+    {
+        "name": "WindDir9am",
+        "field_type": "string"
+    },
+    {
+        "name": "WindDir3pm",
+        "field_type": "string"
+    },
+    {
+        "name": "WindSpeed9am",
+        "field_type": "string"
+    },
+    {
+        "name": "WindSpeed3pm",
+        "field_type": "int64"
+    },
+    {
+        "name": "Humidity9am",
+        "field_type": "int64"
+    },
+    {
+        "name": "Humidity3pm",
+        "field_type": "int64"
+    },
+    {
+        "name": "Pressure9am",
+        "field_type": "double"
+    },
+    {
+        "name": "Pressure3pm",
+        "field_type": "double"
+    },
+    {
+        "name": "Cloud9am",
+        "field_type": "int64"
+    },
+    {
+        "name": "Cloud3pm",
+        "field_type": "int64"
+    },
+    {
+        "name": "Temp9am",
+        "field_type": "double"
+    },
+    {
+        "name": "Temp3pm",
+        "field_type": "double"
+    },
+    {
+        "name": "RainToday",
+        "field_type": "string"
+    },
+    {
+        "name": "RISK_MM",
+        "field_type": "double"
+    },
+    {
+        "name": "RainTomorrow",
+        "field_type": "string"
+    }
+]
