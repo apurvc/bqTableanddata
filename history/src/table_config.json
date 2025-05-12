@@ -1,0 +1,6 @@
+{
+  "prefixes": {
+    "table2": "GCS_PREFIX2",
+    "table1": "GCS_PREFIX",
+  }
+}
