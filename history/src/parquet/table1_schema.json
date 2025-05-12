@@ -1,0 +1,10 @@
+[
+    {
+        "name": "flight",
+        "field_type": "string"
+    },
+    {
+        "name": "route",
+        "field_type": "string"
+    }
+]
